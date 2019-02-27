@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Connect Wise</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>                
+            <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <div>
+                    <img id="com_logo" src="img/ConnectWise-Logo.png" alt="Companies Logo">
+                </div>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="">Services</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="">Our Team</a>
+                    </li>
+                </ul>  
+            </nav>      
+        </header>
+        <section id="home_page">
+            <div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+        <script>
+            let mainNav = document.getElementById("js-menu");
+            let navBarToggle = document.getElementById("js-navbar-toggle");
+            navBarToggle.addEventListener("click", function() {
+                mainNav.classList.toggle('active');
+            });
+        </script>
+    </body>
+</html>
+
