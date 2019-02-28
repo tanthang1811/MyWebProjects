@@ -89,24 +89,22 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        position: relative;
     }
     .header_gifs h2{
         text-align: center;
         margin-top: .85em;
         color: #FFF;
         font-size: 5em;
+        
     }
-    #courses{
+    .row{
         height: 30em;
     }
-    .courses_row h2{ 
+    .row h2{ 
         margin-top: 12px;
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
     }
-    .courses_row h2::after{
-        content: '';
-        width: 50%;
-        border-bottom: 2px solid blue;
-    }
+    
 }
