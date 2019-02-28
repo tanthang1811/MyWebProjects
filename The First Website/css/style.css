@@ -1,0 +1,153 @@
+/*Font family*/
+/*font-family: 'ZCOOL QingKe HuangYou', cursive;*/
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-decoration: none;
+}
+
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+
+header .brand_logo{
+    width: 30%;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    background-color: transparent;
+    padding: 10px 0px;
+}
+
+.mainNav{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header .navbar .mainNav li{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 0px 16px;
+}
+
+.navLink{
+    color: #111111;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header .cases_link{
+    display: none;
+}
+
+/*Index page*/
+
+.index_banner{
+    width: 100%;
+    height: calc(100vh - 200px);
+    background-image: url(../img/adult-business-chill-450271.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+}
+
+.index_banner h2{
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 70px;
+    
+}
+
+.index_banner h1{
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    text-shadow: 2px 2px 8px #111;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index_links div{
+    margin: 16px 16px 0px;
+    width: calc(100% - 32px);
+    height: 100px; 
+    background-color: #F2F2F2;
+}
+
+.index_links div h3{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #111111;
+    line-height: 100px;
+    text-transform: uppercase;
+    
+}
+
+/*Footer*/
+
+footer{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background: #111;
+    overflow: hidden;
+}
+
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li{
+    display: block;
+    list-style-type: none;
+    color: #FFF;
+    font-size: 30px;
+}
+
+footer ul li a{
+    color: #FFF;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.latest_footer{
+    display: none;
+}
+
+.footer_sm{
+    width: 60px;
+    float: right;
+}
+
+.footer_sm img{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 4px 0px 0px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
